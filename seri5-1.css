@@ -3,17 +3,23 @@
     src: url(/font/Sans\ a4fran3.ttf);
 }
 *{
-    padding: 0;
-    margin: 0;
     font-family: iransans;
 }
+padding: 0;
+margin: 0;
+font-family: iransans;
+}
 #wrapper{
-    border-top: 2px solid black;
-    height: 10px;
-    background-color: rgba(16, 151, 16, 0.596);
+border-top: 2px solid black;
+height: 10px;
+background-color: rgba(16, 151, 16, 0.596);
 }
 .bord {
-    margin-top: 2%;
+margin-top: 2%;
+.bord {
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
 }
 .text2 {
     display: inline-block;
@@ -72,7 +78,7 @@
     border-right-width: 10px;
     border-left-width: 10px;
     border-radius: 200px;
-    background: green; 
+    background: green;
 }
 .text5 {
     display: inline-block;
@@ -134,34 +140,35 @@
     margin-left: 80px;
     margin-right: 80px;
 }
-.text12{
-    text-align: center;
-    color:green;  
-}
-#Box div{
-    width: 160px;
-    height: 120px;
-    background-color: white;
-    display: inline-block;
-    justify-content: center;
-    border-radius: 10%;
-    margin: 5%;
-    margin-left: 5%;
-    color:green;
+.text12 {
+    .text12{
+        text-align: center;
+        color:green;  
+    }
+    #Box div{
+        width: 160px;
+        height: 120px;
+        background-color: white;
+        display: inline-block;
+        justify-content: center;
+        border-radius: 10%;
+        margin: 5%;
+        margin-left: 5%;
+        color:green;
+        
+    }
+    .kadr div:hover{
+        border-bottom: 10px solid green;
+        
+    }
     
-}
-.kadr div:hover{
-    border-bottom: 10px solid green;
-    
-}
-
-.kadr img{
-    padding-top:15%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    margin-left: 30%;
-}
-#Box div p{
-    text-align: center;
-}
+    .kadr img{
+        padding-top:15%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin-left: 30%;
+    }
+    #Box div p{
+        text-align: center;
+    }
