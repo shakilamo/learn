@@ -1,0 +1,220 @@
+*{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.titr {
+    text-align: center;
+    font-size: 37px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.titr2 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.right {
+    flex-basis: 30%;
+    align-content: center;
+    
+}
+.left {
+    flex-basis: 70%;
+    align-content: center;
+    margin-left: 5px;
+}
+.image2 {
+    width: 98%;
+    height: 60%;
+}
+.image1 {
+    width: 96%;
+}
+.rght-txt {
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: 600;
+}
+.rght-txt1 {
+    font-size: medium;
+    margin-left: 3%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+}
+.lft-txt {
+    margin-left: 1%;
+    margin-top: 1%;
+    font-weight: 600;
+}
+.lft-txt1 {
+    font-size: medium;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.lft-txt2 {
+    font-size: medium;
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-right: 7%;
+}
+.lft-txt3 {
+    border: 2px solid gray ;
+    margin-right: 80%;
+    font-size: 15px;
+    margin-left: 1%;
+    text-align: center;
+    margin-top: 3%;
+    display: inline-block;
+    padding: 2%;
+    display: inline-block;
+    font-weight: 600;
+    
+}
+.lft-txt3:hover{
+    display: inline-block;
+    border: solid grey;
+    background-color: grey;
+    padding: 2%;
+}
+.lft-txt4 {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 2%;
+    margin-left: -17%;
+}
+.lft-txt5 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-right: -17%;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.image3 {
+    width: 95%;
+    margin-top: 2%;
+}
+.lft-txt6 {
+    margin-left: 1%;
+    margin-top: 1%;
+    font-weight: 600;
+}
+.lft-txt7 {
+    font-size: medium;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.lft-txt8 {
+    font-size: medium;
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-right: 7%;
+}
+.list {
+    margin-top: 9%;
+    border: 2px solid grey;
+    font-size: 85%;
+}
+.image4 {
+    flex-basis: 15%;
+    width: 8%;
+    margin-left: 5%;
+    height: 3%;
+    margin: 4%;
+}
+.lorem {
+    font-size: 85%;
+}
+.sed {
+    font-size: medium;
+}
+.list1 {
+    flex-basis: 80%;
+    padding-top: 2%;
+}
+.list2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    background-color: white;
+}
+.list2:hover{
+    border: solid grey;
+    background-color: grey;
+}
+.travel {
+    border :2px solid black;
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+.tags {
+    font-size: small;
+    background-color:#f1f1f1 ;
+}
+.tags1 {
+    border: 1px solid grey;
+    background-color: white;
+}
+.tags2 {
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.last {
+    margin-top: 5%;
+    margin-left: 1%;
+    background-color: grey;
+}
+.pre {
+    border: solid darkslategray;
+    background-color: darkslategray;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.pre:hover {
+    border: solid grey;
+    background-color: grey;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.next {
+    border: solid black;
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.next:hover{
+    border: solid #f1f1f1;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.last2 {
+    margin-top: 3%;
+    margin-left: 1px;
+    font-size: small;
+    color: white;
+    padding-bottom: 2%;
+}
+
